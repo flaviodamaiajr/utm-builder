@@ -38,7 +38,7 @@ public class Utm
         var pars = segments[1].Split("&");
         var source = GetSource(pars, "utm_source");
         var medium = GetSource(pars, "utm_medium");
-        var name = GetSource(pars, "utm_name");
+        var name = GetSource(pars, "utm_campaign");
         var id = GetSource(pars, "utm_id");
         var term = GetSource(pars, "utm_term");
         var content = GetSource(pars, "utm_content");
